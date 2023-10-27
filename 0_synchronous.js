@@ -1,9 +1,9 @@
-function getMyValueAsync() {
+function getMyValueSync() {
   return 20;
 }
 
 function myFunction() {
-  const a = getMyValueAsync();
+  const a = getMyValueSync();
   console.log(a);
 }
 
